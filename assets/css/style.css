@@ -86,7 +86,7 @@ footer {
 }
 
 
-/* This is the section where to display the content relating to the title of the page */
+/* This is the section where to display the styles of each page */
 
 /* About me content style */
 .clearfix{
@@ -114,4 +114,32 @@ button{
     width: 7rem;
     height: 2.5rem;
     margin: 1rem 0 0 0;
+}
+
+/* Portfolio content Style */
+  
+.column {
+float: left;
+width: 25%;
+padding: 1rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+  
+.card{
+    position: relative;
+    text-align: center;
+}
+
+.pictureText{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    background: #4aaaa5;
+    color:whitesmoke;
 }
